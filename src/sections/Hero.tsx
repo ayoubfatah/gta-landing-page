@@ -66,6 +66,14 @@ export default function Hero() {
             "radial-gradient(circle at 50% 0vh, black 50% ,  transparent 100%)",
         },
         "<",
+      )
+      .to(
+        ".gradient-text",
+        {
+          opacity: "10%",
+          ease: "none",
+        },
+        "<",
       );
   });
 

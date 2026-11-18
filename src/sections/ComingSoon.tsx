@@ -4,8 +4,8 @@ export default function ComingSoon() {
       <div className="h-full col-center gap-20">
         <img src="/images/logo.webp" alt="Logo" className="entrance-logo" />
         <div className="text-wrapper">
-          <h3 className="gradient-title">
-            Coming <br /> May 26th <br /> 2026{" "}
+          <h3 className="gradient-title gta-text">
+            Coming <br /> November 19 <br /> 2026{" "}
           </h3>
         </div>
         <div className="flex-center gap-10">
