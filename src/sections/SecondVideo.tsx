@@ -9,7 +9,6 @@ export default function SecondVideo() {
     gsap.set(".second-vd-overlay", {
       opacity: 1,
     });
-
     gsap.set(".second-vd-wrapper", {
       marginTop: "-100vh",
     });
@@ -56,7 +55,7 @@ export default function SecondVideo() {
           style={{ objectPosition: "30% 0%" }}
         />
 
-        <div className="second-vd-overlay opacity-100 absolute inset-0 z-10 bg-[#111117] pointer-events-none" />
+        <div className="second-vd-overlay absolute inset-0 z-10 bg-[#111117] pointer-events-none" />
       </div>
     </section>
   );

@@ -13,6 +13,7 @@ import SecondVideo from "./sections/SecondVideo";
 import Lucial from "./sections/Lucial";
 import PostCard from "./sections/PostCard";
 import FinalVideo from "./sections/FinalVideo";
+import LuciaCar from "./sections/LuciaCar";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -49,6 +50,8 @@ function App() {
       <JasonPointingGun />
       <SecondVideo />
       <Lucial />
+
+      <LuciaCar />
       <PostCard />
       <FinalVideo />
     </main>
